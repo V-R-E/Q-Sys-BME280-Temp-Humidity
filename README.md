@@ -6,7 +6,7 @@ The BME280 Temp & Humidity is a network environmental sensor peripheral designed
 
 ## Properties
 - Name
-  - *Used to configre a custom name for the plugins status*
+  - *Used to configure a custom name for the plugins status*
 
 ## Control Pin Definitions
 - Analog Reference Voltage (Voltage use to refence the analog pins against, also the Arduinos input voltage. *Should not exceed 5.5v)
@@ -18,12 +18,12 @@ The BME280 Temp & Humidity is a network environmental sensor peripheral designed
 - Firmware (The firmware version running on the Arduino.)
   - ***Read Only*** [text string formatted TH#-#]
 - Humidity (The humidity data from the BME280. *±3% accuracy)
-  - ***Read Only*** [0% - 00%]
+  - ***Read Only*** [0% - 100%]
 - Pressure (The barometric pressure data from the BME280. *±1 hPa absolute accuraccy)
   - ***Read Only*** [300Pa - 1100 hPa]
 - Status (The status of the plugin component)
   - ***Read Only*** [text string]
-- Tempature (The tempature data from the BME280. *±1.0°C accuracy)
+- Temperature (The temperature data from the BME280. *±1.0°C accuracy)
   - ***Read Only*** [-40°C - 85°C]
 - Units (Specify either Metric (SI) or US (USCS) units)
   - ***Read, Write***
