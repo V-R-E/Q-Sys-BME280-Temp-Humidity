@@ -2,7 +2,7 @@
 This is a Q-Sys plugin and associated Arduino code to create a low cost open source environmental sensor peripheral for the Q-Sys architecture.
 
 ## Overview
-The BME280 Temp & Humidity is a network environmental sensor peripheral designed for the Q-SYS architecture. The peripheral utilizes the commonly available Bosch BME280 environmental sensor supplying Q-Sys with realtime temperature, barometric pressure and humidity readings. Built around readily available open-source hardware the Remote GPIO Nano can be assembled for around $25 per unit. An Arduino Nano microcontroller in companion with an w5500 ethernet shield enables UDP communication with the Q-SYS core. This plugin allows for ease of setup and integration into an existing design appearing as any other configurable GPIO component. 
+The BME280 Temp & Humidity is a network environmental sensor peripheral designed for the Q-SYS architecture. The peripheral utilizes the commonly available Bosch BME280 environmental sensor supplying Q-Sys with real time temperature, barometric pressure, and humidity readings. Built around readily available open-source hardware the Remote GPIO Nano can be assembled for around $25 per unit. An Arduino Nano microcontroller in companion with an w5500 ethernet shield enables UDP communication with the Q-SYS core. This plugin allows for ease of setup and integration into an existing design appearing as any other configurable GPIO component. 
 
 ## Properties
 - Name
@@ -13,13 +13,13 @@ The BME280 Temp & Humidity is a network environmental sensor peripheral designed
   - ***Read Only*** [0.00v - 5.50v]
 - Device IP (IP Address of The Remote GPIO Nano)
   - ***Read, Write***
-- Device Port (UDP port the The Remote GPIO Nano is listening on)
+- Device Port (UDP port the Remote GPIO Nano is listening on)
   - ***Read, Write***
 - Firmware (The firmware version running on the Arduino.)
   - ***Read Only*** [text string formatted TH#-#]
 - Humidity (The humidity data from the BME280. *±3% accuracy)
   - ***Read Only*** [0% - 100%]
-- Pressure (The barometric pressure data from the BME280. *±1 hPa absolute accuraccy)
+- Pressure (The barometric pressure data from the BME280. *±1 hPa absolute accuracy)
   - ***Read Only*** [300Pa - 1100 hPa]
 - Status (The status of the plugin component)
   - ***Read Only*** [text string]
@@ -27,7 +27,7 @@ The BME280 Temp & Humidity is a network environmental sensor peripheral designed
   - ***Read Only*** [-40°C - 85°C]
 - Units (Specify either Metric (SI) or US (USCS) units)
   - ***Read, Write***
-- Up Time (Up time of the the BME280 Temp & Humidity)
+- Up Time (Up time of the BME280 Temp & Humidity)
   - ***Read Only***
 
 
